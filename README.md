@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./images/PF-logo-1.png" alt="PoliForge Logo" width="400"/>
+</p>
+
 # PoliForge
 
 **The Open Operating System for Political Campaigns**

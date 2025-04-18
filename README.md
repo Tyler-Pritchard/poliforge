@@ -8,7 +8,7 @@ PoliForge is a modular, AI-powered platform designed to empower grassroots candi
 
 ---
 
-## 🧭 Project Overview
+## 🛍️ Project Overview
 
 PoliForge is built as a **microservice-oriented system**. Each service models a specific domain of a real political campaign — from strategic planning to constituent analysis, outreach coordination, and even counter-campaign strategy. By automating and simplifying critical processes, we aim to reduce the cost, complexity, and gatekeeping associated with running for office in the United States.
 
@@ -47,4 +47,58 @@ Each service is deployed independently with Docker and Kubernetes support and ca
 
 This repository serves as the *central hub* for the project.
 
-# poliforge
+```
+poliforge/
+├── docs/                  # System diagrams, planning docs, vision roadmap
+├── infra/                 # Helm charts, compose files, API gateway config
+├── gateway/               # Reverse proxy or GraphQL mesh layer (TBD)
+├── CONTRIBUTING.md        # How to get involved
+├── LICENSE                # Open-source license (TBD: likely MIT or AGPLv3)
+├── README.md              # You are here
+└── links.md               # GitHub URLs to all service repos (WIP)
+```
+
+Individual services will be hosted in their own public GitHub repositories and referenced here for discoverability and contribution.
+
+---
+
+## 🤝 Get Involved
+
+We are currently in the **system architecture and design phase**. You can contribute by:
+
+- Proposing features, user stories, or use cases
+- Reviewing and helping design microservice boundaries
+- Helping with compliance/legal research
+- Setting up infrastructure and dev tooling
+- Providing feedback as someone who has run or worked on a campaign
+
+If you believe the political process should be more **accessible**, **transparent**, and **intelligent**, we’d love your voice in this project.
+
+📬 Reach out by opening an issue or emailing the project maintainer.
+
+---
+
+## ⚠️ Ethics & Usage
+
+PoliForge is a tool, not a platform for ideology. It can be used by candidates across the political spectrum, provided they do not violate U.S. law or GitHub's terms of service. We strongly encourage transparency, evidence-based messaging, and fair use of AI-generated content — but we also recognize that political truth is often contested.
+
+We welcome conversations about ethics, risk, and digital democracy.
+
+---
+
+## 🌐 License
+
+Open-source license is under consideration. Our goal is to balance **maximum access** with **ethical integrity** and **resistance to corporate capture**.
+
+---
+
+## 🔥 Why This Matters
+
+Running for office shouldn't require a trust fund, a media empire, or a corporate war chest. The American people deserve representatives who can focus on policy, not fundraising; who can speak clearly, not strategically; who can run to serve — not to survive.
+
+PoliForge exists to make that vision possible — one line of code at a time.
+
+---
+
+_“Build something they can’t ignore.”_
+

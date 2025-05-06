@@ -36,7 +36,7 @@ PoliForge is composed of the following core services:
 |--------|-------------|------|
 | **Candidate Service** | Manages candidate profile, voice, schedule, and debate prep | _Coming soon_ |
 | **Campaign Service** | Orchestrates campaign strategy, messaging, fundraising, and internal ops | _Coming soon_ |
-| **Constituency Intelligence** | Collects and analyzes local voter data, trends, and issues | _Coming soon_ |
+| **Constituency Intelligence** | Collects and analyzes local voter data, trends, and issues | [Repo](https://github.com/tyler-pritchard/constituency-intel) |
 | **Counter-Campaign Engine** | Gathers and visualizes opponent misalignments and receipts | _Coming soon_ |
 | **Infrastructure Service** | Handles auth, compliance, observability, and data pipelines | _Coming soon_ |
 | **Volunteer Mobilizer** | Organizes door-knocking, events, and people power | _Coming soon_ |
